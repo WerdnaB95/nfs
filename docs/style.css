@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.panel {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(22, 22, 22, 0.5);
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.title {
+    width: 100vw;
+    text-align: center;
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 35px;
+    margin-top: 5vh;
+}
+
+.text {
+    font-family: 'Bangers', cursive;
+    font-size: 4vw;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    margin-top: 30vh;
+}
+
+.download {
+    color: white;
+    position: relative;
+    float: right;
+    top: -5vh;
+    right: 5vw;
+    transition: 1s;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    padding: 1vh;
+    text-align: center;
+    border-radius: 20px;
+    width: 10vw;
+}
+
+.download:hover {
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 15px 2px rgb(255, 255, 255);
+}
+
+ul {
+    width: 100vw;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+
+ul li {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 4vh;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+li {
+    background-color: rgb(0, 0, 0);
+}
+
+ul li:hover {
+    box-shadow: 0px 0px 15px 2px rgb(255, 255, 255);
+}
+
